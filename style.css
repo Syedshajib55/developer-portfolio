@@ -5,16 +5,50 @@ body{
 h1{
     font-size: 50px;
 }
+.h2{
+font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
    display: flex;
    margin-bottom: 150px;
 }
 .half-width{
     width: 100%;
     padding: 10px;
+}
+.experiences-item{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(28, 19, 82);
+}
+#full-stack-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(230, 5, 110),cyan);
+    border-image-slice: 1;
+
+}
+#web-dev-exp
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+.experiences-area{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.footer{
+    text-align: center;
+}
+.short{
+    font-size: 20px;
 }
 .half-img{
     width: 80%;
