@@ -6,7 +6,7 @@ h1{
     font-size: 50px;
 }
 h2{
-font-size: 40px;
+font-size: 30px;
 }
 .orange-color{
     color: orange;
@@ -39,11 +39,12 @@ font-size: 40px;
     border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
 }
-.experiences-area{
+.experience-area{
     background-image: url(exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
+
 .footer{
     text-align: center;
 }
